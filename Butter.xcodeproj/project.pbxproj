@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03239EB61672E6D6004263D7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03239EB51672E6D6004263D7 /* Cocoa.framework */; };
 		03239EC01672E6D6004263D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03239EBE1672E6D6004263D7 /* InfoPlist.strings */; };
 		03239F6B1672E712004263D7 /* Butter.h in Headers */ = {isa = PBXBuildFile; fileRef = 03239F6A1672E712004263D7 /* Butter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03239F7F1672E7C8004263D7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03239F7E1672E7C8004263D7 /* QuartzCore.framework */; };
 		03C1BE9317967060008AAC0B /* NSImage+BTRImageAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C1BE9117967060008AAC0B /* NSImage+BTRImageAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03C1BE9417967060008AAC0B /* NSImage+BTRImageAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C1BE9217967060008AAC0B /* NSImage+BTRImageAdditions.m */; };
 		9C5E66EC1905650500C5E835 /* BTRTextFieldProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C5E66DF1905493B00C5E835 /* BTRTextFieldProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,25 +57,21 @@
 
 /* Begin PBXFileReference section */
 		03239EB21672E6D6004263D7 /* Butter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Butter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		03239EB51672E6D6004263D7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		03239EB81672E6D6004263D7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		03239EB91672E6D6004263D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		03239EBA1672E6D6004263D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03239EBD1672E6D6004263D7 /* Butter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Butter-Info.plist"; sourceTree = "<group>"; };
 		03239EBF1672E6D6004263D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03239EC11672E6D6004263D7 /* Butter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Butter-Prefix.pch"; sourceTree = "<group>"; };
-		03239F6A1672E712004263D7 /* Butter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Butter.h; sourceTree = "<group>"; };
-		03239F7E1672E7C8004263D7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		03239F6A1672E712004263D7 /* Butter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Butter.h; path = Butter/Butter.h; sourceTree = "<group>"; };
 		03C1BE9117967060008AAC0B /* NSImage+BTRImageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+BTRImageAdditions.h"; sourceTree = "<group>"; };
 		03C1BE9217967060008AAC0B /* NSImage+BTRImageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+BTRImageAdditions.m"; sourceTree = "<group>"; };
+		7B87AD8B19D2457C008270E8 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Mac-Framework.xcconfig"; path = "../../AtoZ.framework/xcconfigs/Mac OS X/Mac-Framework.xcconfig"; sourceTree = "<group>"; };
 		9C5E66DF1905493B00C5E835 /* BTRTextFieldProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTRTextFieldProtocol.h; sourceTree = "<group>"; };
 		AB5A1A4317966E19003FF742 /* BTRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRImage.h; sourceTree = "<group>"; };
 		AB5A1A4417966E19003FF742 /* BTRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRImage.m; sourceTree = "<group>"; };
 		AB5A1A5E17991E3A003FF742 /* BTRControlAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTRControlAction.h; path = Private/BTRControlAction.h; sourceTree = "<group>"; };
 		AB5A1A5F17991E3A003FF742 /* BTRControlAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTRControlAction.m; path = Private/BTRControlAction.m; sourceTree = "<group>"; };
-		AB97749017ED8A1200810BA9 /* BTRGeometryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRGeometryAdditions.h; sourceTree = "<group>"; };
-		AB97749117ED8A1200810BA9 /* BTRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRView.h; sourceTree = "<group>"; };
-		AB97749217ED8A1200810BA9 /* BTRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRView.m; sourceTree = "<group>"; };
+		AB97749017ED8A1200810BA9 /* BTRGeometryAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTRGeometryAdditions.h; path = Butter/BTRGeometryAdditions.h; sourceTree = "<group>"; };
+		AB97749117ED8A1200810BA9 /* BTRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BTRView.h; path = Butter/BTRView.h; sourceTree = "<group>"; };
+		AB97749217ED8A1200810BA9 /* BTRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BTRView.m; path = Butter/BTRView.m; sourceTree = "<group>"; };
 		AB97750A17EE4F9800810BA9 /* BTRScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRScrollView.h; sourceTree = "<group>"; };
 		AB97750B17EE4F9800810BA9 /* BTRScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTRScrollView.m; sourceTree = "<group>"; };
 		AB97750E17EE4F9F00810BA9 /* BTRClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTRClipView.h; sourceTree = "<group>"; };
@@ -107,8 +101,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03239F7F1672E7C8004263D7 /* QuartzCore.framework in Frameworks */,
-				03239EB61672E6D6004263D7 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,48 +114,13 @@
 				ABEC315916A3CF9A00919EED /* BTRSecureTextField.m */,
 			);
 			name = BTRSecureTextField;
+			path = Butter;
 			sourceTree = "<group>";
 		};
 		03239EA61672E6D6004263D7 = {
 			isa = PBXGroup;
 			children = (
-				03239EBB1672E6D6004263D7 /* Butter */,
-				03239EB41672E6D6004263D7 /* Frameworks */,
-				03239EB31672E6D6004263D7 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		03239EB31672E6D6004263D7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				03239EB21672E6D6004263D7 /* Butter.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		03239EB41672E6D6004263D7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				03239F7E1672E7C8004263D7 /* QuartzCore.framework */,
-				03239EB51672E6D6004263D7 /* Cocoa.framework */,
-				03239EB71672E6D6004263D7 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		03239EB71672E6D6004263D7 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				03239EB81672E6D6004263D7 /* AppKit.framework */,
-				03239EB91672E6D6004263D7 /* CoreData.framework */,
-				03239EBA1672E6D6004263D7 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		03239EBB1672E6D6004263D7 /* Butter */ = {
-			isa = PBXGroup;
-			children = (
+				7B87AD8B19D2457C008270E8 /* Mac-Framework.xcconfig */,
 				03239F6A1672E712004263D7 /* Butter.h */,
 				AB97749017ED8A1200810BA9 /* BTRGeometryAdditions.h */,
 				AB97749117ED8A1200810BA9 /* BTRView.h */,
@@ -180,6 +137,22 @@
 				ABECF06E16855FB000BED126 /* BTRLabel */,
 				03FA6EFB1674393400491A1D /* Categories */,
 				03239EBC1672E6D6004263D7 /* Supporting Files */,
+				03239EBB1672E6D6004263D7 /* Butter */,
+				03239EB31672E6D6004263D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03239EB31672E6D6004263D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03239EB21672E6D6004263D7 /* Butter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03239EBB1672E6D6004263D7 /* Butter */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = Butter;
 			sourceTree = "<group>";
@@ -192,6 +165,7 @@
 				03239EC11672E6D6004263D7 /* Butter-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = Butter;
 			sourceTree = "<group>";
 		};
 		0391B769169119D000725AAD /* BTRPopUpButton */ = {
@@ -201,6 +175,7 @@
 				ABEC315516A3CF8E00919EED /* BTRPopUpButton.m */,
 			);
 			name = BTRPopUpButton;
+			path = Butter;
 			sourceTree = "<group>";
 		};
 		03FA6EFB1674393400491A1D /* Categories */ = {
@@ -212,6 +187,7 @@
 				03C1BE9217967060008AAC0B /* NSImage+BTRImageAdditions.m */,
 			);
 			name = Categories;
+			path = Butter;
 			sourceTree = "<group>";
 		};
 		AB5A1A5D17991E31003FF742 /* Private */ = {
@@ -230,6 +206,7 @@
 				AB97750B17EE4F9800810BA9 /* BTRScrollView.m */,
 			);
 			name = BTRScrollView;
+			path = Butter;
 			sourceTree = "<group>";
 		};
 		AB97750917EE4F8800810BA9 /* BTRClipView */ = {
@@ -239,6 +216,7 @@
 				AB97750F17EE4F9F00810BA9 /* BTRClipView.m */,
 			);
 			name = BTRClipView;
+			path = Butter;
 			sourceTree = "<group>";
 		};
 		ABA67795168C03FA006DD644 /* BTRActivityIndicator */ = {
@@ -247,7 +225,8 @@
 				ABEC314016A3CF5D00919EED /* BTRActivityIndicator.h */,
 				ABEC314116A3CF5D00919EED /* BTRActivityIndicator.m */,
 			);
-			path = BTRActivityIndicator;
+			name = BTRActivityIndicator;
+			path = Butter/BTRActivityIndicator;
 			sourceTree = "<group>";
 		};
 		ABB9D73D167BD6C800ECB31D /* BTRControl */ = {
@@ -258,6 +237,7 @@
 				ABEC314916A3CF7B00919EED /* BTRControl.m */,
 			);
 			name = BTRControl;
+			path = Butter;
 			sourceTree = "<group>";
 		};
 		ABE93937167993DB00A7A1B8 /* BTRImageView */ = {
@@ -269,6 +249,7 @@
 				AB5A1A4417966E19003FF742 /* BTRImage.m */,
 			);
 			name = BTRImageView;
+			path = Butter;
 			sourceTree = "<group>";
 		};
 		ABECF05C1685390500BED126 /* BTRButton */ = {
@@ -278,6 +259,7 @@
 				ABEC314516A3CF7300919EED /* BTRButton.m */,
 			);
 			name = BTRButton;
+			path = Butter;
 			sourceTree = "<group>";
 		};
 		ABECF06D16855FA400BED126 /* BTRTextField */ = {
@@ -288,6 +270,7 @@
 				ABEC315D16A3CFA000919EED /* BTRTextField.m */,
 			);
 			name = BTRTextField;
+			path = Butter;
 			sourceTree = "<group>";
 		};
 		ABECF06E16855FB000BED126 /* BTRLabel */ = {
@@ -297,6 +280,7 @@
 				ABEC315116A3CF8800919EED /* BTRLabel.m */,
 			);
 			name = BTRLabel;
+			path = Butter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -479,8 +463,10 @@
 		};
 		03239EC81672E6D6004263D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B87AD8B19D2457C008270E8 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -488,11 +474,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Butter/Butter-Prefix.pch";
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Butter/Butter-Info.plist";
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}/**";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -500,8 +486,10 @@
 		};
 		03239EC91672E6D6004263D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B87AD8B19D2457C008270E8 /* Mac-Framework.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -509,11 +497,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Butter/Butter-Prefix.pch";
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Butter/Butter-Info.plist";
 				INSTALL_PATH = "@rpath";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}/**";
 				WRAPPER_EXTENSION = framework;
 			};

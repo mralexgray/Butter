@@ -120,6 +120,9 @@ extern NSString * const BTRControlStateBackgroundImageKey;
 - (NSFont *)titleFontForControlState:(BTRControlState)state;
 - (void)setTitleFont:(NSFont *)font forControlState:(BTRControlState)state;
 
+- (NSCursor *)cursorForControlState:(BTRControlState)state;
+- (void)setCursor:(NSCursor *)cursor forControlState:(BTRControlState)state;
+
 @end
 
 @interface BTRControlContent : NSObject
@@ -135,6 +138,10 @@ extern NSString * const BTRControlStateBackgroundImageKey;
 // change. TODO: See if there is a way to monitor all properties for
 // change so that each setter individually doesn't need to call the method
 - (void)controlContentChanged;
+
+
+@property (nonatomic) NSCursor *cursor;
+
 
 // Subclasses can use this to return text attributes that the
 // attributedTitle should use by default

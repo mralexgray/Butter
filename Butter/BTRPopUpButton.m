@@ -151,6 +151,8 @@ static void BTRPopupButtonCommonInit(BTRPopUpButton *self) {
 
 #pragma mark - Accessors
 
+@synthesize menu = _menu;
+
 - (void)setMenu:(NSMenu *)menu {
 	if (_menu != menu) {
 		NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
@@ -159,7 +161,7 @@ static void BTRPopupButtonCommonInit(BTRPopUpButton *self) {
 			self.notificationObserver = nil;
 		}
 		self.selectedItem = nil;
-		_menu = menu;
+		self->_menu = menu;
 		if (_menu) {
 			_menu.autoenablesItems = self.autoenablesItems;
 			// Register for notifications for when the menu closes. This is important

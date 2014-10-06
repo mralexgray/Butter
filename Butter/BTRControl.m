@@ -147,6 +147,14 @@ static void BTRControlCommonInit(BTRControl *self) {
 	[self contentForControlState:state].titleFont = font;
 }
 
+- (NSCursor *)cursorForControlState:(BTRControlState)state {
+	return [self contentForControlState:state].cursor;
+}
+- (void)setCursor:(NSCursor *)cursor forControlState:(BTRControlState)state {
+	[self contentForControlState:state].cursor = cursor;
+}
+
+
 - (NSString *)currentTitle {
 	return [self currentValueForControlStateKey:BTRControlStateTitleKey];
 }

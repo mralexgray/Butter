@@ -8,6 +8,7 @@
 
 #import "BTRView.h"
 #import <QuartzCore/QuartzCore.h>
+@import ObjectiveC;
 
 @implementation BTRView {
 	BOOL drawFlag;
@@ -16,8 +17,11 @@
 #pragma mark Properties
 
 - (void)setFlipped:(BOOL)flipped {
-	if (_flipped != flipped) {
-		_flipped = flipped;
+
+  id z = objc_getAssociatedObject(self, @selector(isFlipped));
+	if (!z || [z boolValue] != flipped) {
+		objc_setAssociatedObject(self, @selector(isFlipped), @(flipped), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    // flipped = flipped;
 		self.needsLayout = YES;
 		self.needsDisplay = YES;
 	}

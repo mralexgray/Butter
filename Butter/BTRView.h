@@ -40,7 +40,7 @@
 // coordinate system.
 //
 // Defaults to NO.
-@property (nonatomic, assign, getter = isFlipped) BOOL flipped;
+@property (assign, getter = isFlipped) BOOL flipped;
 
 // Whether the content is redrawn with a default animation applied.
 //
